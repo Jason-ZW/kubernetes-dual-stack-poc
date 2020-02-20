@@ -2,8 +2,8 @@
 
 POC for kubernetes dual-stack. There are two ways to support deploying a dual-stack cluster:
 
-- [kubeadm](kubeadm/README.md)
-- [rke](rke/README.md)
+- [kubeadm](kubeadm/)
+- [rke](rke/)
 
 ## License
 
