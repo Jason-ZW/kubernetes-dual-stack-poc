@@ -45,6 +45,13 @@ $ modprobe ipt_REJECT
 $ mkdir -p /var/lib/calico
 ```
 
+## 安装docker
+
+```
+$ apt-get update
+$ apt-get install docker.io
+```
+
 ## 下载安装rke
 
 [参考官网](https://github.com/rancher/rke)
