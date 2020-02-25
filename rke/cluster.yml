@@ -59,11 +59,11 @@ authentication:
   strategy: x509
   sans:
     - "172.30.10.85"
-    - "2406:da14:242:f10:2e55:ec8a:852f:e0f6"
+    #- "2406:da14:242:f10:2e55:ec8a:852f:e0f6" # 因为RKE无法设置主机internal_address为多IP，因此这里可以不填
     - "172.30.10.55"
-    - "2406:da14:242:f10:b02:812c:46e7:80aa"
+    #- "2406:da14:242:f10:b02:812c:46e7:80aa" # 因为RKE无法设置主机internal_address为多IP，因此这里可以不填
     - "172.30.10.29"
-    - "2406:da14:242:f10:143f:5b90:1544:1aa1"
+    #- "2406:da14:242:f10:143f:5b90:1544:1aa1" # 因为RKE无法设置主机internal_address为多IP，因此这里可以不填
     - "192.168.30.1" # 需要加入集群默认kubernetes-svc地址
 
 authorization:
